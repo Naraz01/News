@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import { useDispatch } from 'react-redux';
 import './App.css';
+import { FetchNews } from './redux/ducks/news/actionCreators';
 
 function App() {
+  const dispatch = useDispatch();
+  React.useEffect(() => {
+    dispatch(FetchNews());
+},[]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      123
     </div>
   );
 }
