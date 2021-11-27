@@ -69,120 +69,15 @@
   ],
   "comments": [
     {
-      "id": 2,
-      "newsId": 1,
-      "date": "15.09.2021",
-      "text": "Равным образом дальнейшее развитие различных форм деятельности обеспечивает широкому кругу",
-      "user": {
-        "userName": "Равным образом",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 2
-      }
-    },
-    {
-      "id": 3,
-      "newsId": 1,
-      "date": "15.09.2021",
-      "text": "Практический опыт показывает, что рамки и место обучения кадров позволяет",
-      "user": {
-        "userName": "Равным образом",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      }
-    },
-    {
-      "newsId": 3,
-      "date": "17.09.2021",
-      "text": "jjjjj",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 6
-    },
-    {
-      "newsId": 3,
-      "date": "18.09.2021",
-      "text": "22\n",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 7
-    },
-    {
-      "newsId": 3,
-      "date": "18.09.2021",
-      "text": "jjj",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 8
-    },
-    {
-      "newsId": 3,
-      "date": "18.09.2021",
-      "text": "j\n",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 9
-    },
-    {
-      "newsId": 3,
-      "date": "18.09.2021",
-      "text": "ddd",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 10
-    },
-    {
-      "newsId": 1,
-      "date": "29.09.2021",
-      "text": "hjjk",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 11
-    },
-    {
-      "newsId": 1,
-      "date": "23.11.2021",
-      "text": "kkkkkkkkkk",
-      "user": {
-        "userName": "the",
-        "avatarUrl": "https://source.unsplash.com/random/100x103",
-        "userId": 1
-      },
-      "id": 12
-    },
-    {
       "newsId": 4,
-      "date": "23.11.2021",
-      "text": "vcvcvcxvcxvcv",
-      "user": {
-        "userName": "cables",
-        "avatarUrl": "https://source.unsplash.com/random/100x104",
-        "userId": 2
-      },
-      "id": 13
-    },
-    {
-      "newsId": 3,
       "date": "27.11.2021",
-      "text": "yuiopoiuuio",
-      "id": 17
+      "text": "dfdsfdsfsdf",
+      "user": {
+        "name": "выавыав",
+        "email": "dfsdfd@dfdf.ri",
+        "tel": "3333"
+      },
+      "id": 18
     }
   ]
 }

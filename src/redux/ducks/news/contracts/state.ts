@@ -16,13 +16,6 @@ export interface News {
     title: string,
     text: string,
     date: string,
-    time: string,
-    writer: Writer,
-    companies: boolean,
-    person: boolean,
-    personId: number,
-    saved: Array<number>,
-    likes: Array<number>
     comments?: any,
 }
 

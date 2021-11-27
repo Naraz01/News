@@ -1,5 +1,5 @@
 import {SearchActionsType, SearchActions} from "./contracts/actionTypes";
-import { LoadingState, Search, SearchState} from "./contracts/state";
+import { LoadingState, SearchState} from "./contracts/state";
 
 const initialNewsState: SearchState = {
     items: [],

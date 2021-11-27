@@ -27,8 +27,11 @@ export const Main: React.FC = ():React.ReactElement => {
                                         item.text.split('.', 1)
                                     }
                                 </p>
-                                <div>
+                                <div className="news-footer">
                                     <CommentIcon comments={item.comments} />
+                                    <p>
+                                        {item.date}
+                                    </p>
                                 </div>
                             </div>
                         </Link>
