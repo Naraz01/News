@@ -1,0 +1,15 @@
+.header {
+  background-color: bisque;
+  box-shadow: 0 0 7px 1px #b9b1b1;
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  &-logo {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

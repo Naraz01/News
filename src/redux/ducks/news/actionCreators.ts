@@ -4,9 +4,13 @@ import {
     NewsActionsType,
     SetNewsLoadingStateTypes,
     SetNewsTypes,
+    AddCommentNewsTypes
 } from './contracts/actionTypes'
 
-/* comment */
+export const  AddCommentNews = (payload:any):AddCommentNewsTypes => ({
+    type: NewsActionsType.ADD_COMMENT_NEWS,
+    payload
+});
 
 export const SetNews = (payload: NewsState):SetNewsTypes => ({
     type: NewsActionsType.SET_NEWS,
@@ -21,3 +25,4 @@ export const SetNewsLoadingState = (payload: LoadingState):SetNewsLoadingStateTy
     type: NewsActionsType.SET_LOADING_STATE,
     payload
 });
+

@@ -17,6 +17,15 @@ export const newsReducer = (state = initialNewsState, action: NewsActions) => {
           case (NewsActionsType.SET_LOADING_STATE) : {
               return { ...state,  loadingState: action.payload };
           }
+          case NewsActionsType.ADD_COMMENT_NEWS: {
+            let addComment = state.items.map((item:News) => {
+                if (item.id === action.payload.newsId) {
+                    item.comments = [...item.comments, action.payload]
+                }
+                return item
+            });
+            return {...state}
+        }
           default : {
               return state
           }

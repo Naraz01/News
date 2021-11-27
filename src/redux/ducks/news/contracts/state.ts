@@ -5,7 +5,6 @@ export enum LoadingState {
     NEVER = 'NEVER'
 }
 
-
 export interface Writer {
     userName: string,
     avatarUrl: string,
